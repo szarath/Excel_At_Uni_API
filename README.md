@@ -1,6 +1,6 @@
 # Excel_At_Uni_API
 
-Rrerequisites
+Prerequisites
 
     1)Open project using Visual Studio
     2)Edit appsettings.json file where ExcelAtUniDB is edit the string to match your database connection string
