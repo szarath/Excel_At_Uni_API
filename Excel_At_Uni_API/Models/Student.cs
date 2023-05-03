@@ -48,8 +48,13 @@ namespace Excel_At_Uni_API.Models
 
     public class AllowedExtensionsAttribute : ValidationAttribute
     {
+        //This line of code declares a private read-only string array called _extensions and initializes it with the value ".jpg".
         private readonly string[] _extensions = { ".jpg" };
 
+        /// <summary>
+        /// Validates a file to ensure it is of the correct type and size.
+        /// </summary>
+        /// <returns>ValidationResult.Success if the file is valid, otherwise a ValidationResult with an error message.</returns>
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             if (value == null)
