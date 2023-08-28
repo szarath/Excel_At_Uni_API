@@ -7,4 +7,5 @@ Prerequisites
     3)Run add-migration "your_initial_migraiton" in package manage console in visual studio
     4)Run update-database in package manage console in visual studio
 
-Mentions There is no data present and as you need to register a new student and enrolment.
+Mentions 
+    There is no data present and as you need to register a new student and enrolment.
